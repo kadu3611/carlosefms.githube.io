@@ -1,8 +1,10 @@
-h3{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+h3{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 40px;}
 p:nth-of-type(2){
     font-family:monospace;
 }
-body{background-color:#ade8f4;}
+body{background-color:#ade8f4;
+font-size: 20px;}
 .it{font-style: italic;
 font-family: monospace;}
 .tec{font-family: sans-serif;}
@@ -17,9 +19,7 @@ border-style: solid;
 border-width: 1px;
 border-color: rgb(12, 64, 66);
 padding: 6px;}
-div {
-    border:2px solid black;
-}
+
 #foto{
     float: left;
     height: 280px;
@@ -38,8 +38,9 @@ div div:nth-of-type(n){
 }
 #des{
 position: relative;
-text-align: center;
-right: 155px;
+text-align: left;
+
+left: 50px;
 top: 80px;
 }
 li:nth-of-type(odd){
